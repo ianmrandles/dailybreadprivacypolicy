@@ -17,7 +17,7 @@ Here's the short version, in plain English:
 
 - **You can use Daily Bread without an account.** Reading plans, highlights, notes, and your daily streak work without us knowing who you are.
 - **If you create an account** (with Apple Sign-In, Google, or email), we collect basic profile information so your data can sync across your devices.
-- **The AI Study feature** sends your questions to Anthropic, the maker of Claude. We don't use your conversations to train AI models, and neither does Anthropic when accessed through our application.
+- **The AI Study feature** sends your questions to one or more trusted third-party AI providers (currently Anthropic and OpenAI). We don't use your conversations to train AI models, and these providers don't use API data submitted by our application to train theirs.
 - **We don't sell your data** to advertisers or anyone else.
 - **You can delete your account and your data** at any time from within the App.
 
@@ -55,15 +55,20 @@ Daily Bread includes an AI Study feature that lets you ask questions about scrip
 
 ### Who powers the AI
 
-The AI Study feature is powered by **Anthropic's Claude**, an AI assistant operated by Anthropic, PBC. When you submit a question, your message is transmitted to Anthropic's servers, processed by Claude, and the response is returned to you through our App.
+The AI Study feature is powered by large language models operated by trusted third-party AI providers. Currently, we use:
+
+- **Anthropic, PBC** — maker of Claude. See [Anthropic's Privacy Policy](https://www.anthropic.com/legal/privacy).
+- **OpenAI, L.L.C.** — maker of GPT. See [OpenAI's Privacy Policy](https://openai.com/policies/privacy-policy).
+
+When you submit a question to AI Study, your message is transmitted to one of these providers, processed by their model, and the response is returned to you through our App. You will not see which provider answered any particular question — from your perspective, it is simply "AI Study." We may add, remove, or change providers over time as we improve the feature; we will update this Policy to reflect material changes.
 
 ### What gets sent
 
-When you use AI Study, we send Anthropic the text of your question, the verse or passage you're studying, and instructions that constrain Claude's responses to scripture and traditionally received teachings of the Church. We do *not* send Anthropic your name, email, account identifier, location, or any other identifying information about you.
+When you use AI Study, we send the selected provider the text of your question, the verse or passage you're studying, and instructions that constrain the model's responses to scripture and traditionally received teachings of the Church. We do *not* send these providers your name, email, account identifier, location, or any other identifying information about you.
 
-### How Anthropic uses this data
+### How these providers use your data
 
-Anthropic processes your messages to generate responses and does not use API inputs or outputs to train its models. For more information, see [Anthropic's Privacy Policy](https://www.anthropic.com/legal/privacy).
+Our AI providers process your messages to generate responses. Under our commercial agreements with them, data submitted through our application is not used to train their AI models. Each provider applies its own security, retention, and abuse-monitoring practices to the data we send. To understand each provider's practices in detail, please review the privacy policies linked above.
 
 ### How we use this data
 
@@ -77,7 +82,7 @@ AI Study is a study tool, not a spiritual authority, counselor, or pastor. Its a
 
 We do not sell your personal information. We share information only in the following limited circumstances:
 
-- **Service providers.** We share data with third parties that operate our infrastructure, including Anthropic (AI processing), and the providers of our hosting, authentication, and crash-reporting services. These providers are contractually limited to using your information only to provide services to us.
+- **Service providers.** We share data with third parties that operate our infrastructure, including our AI providers (currently Anthropic and OpenAI — see Section 4), and the providers of our hosting, authentication, and crash-reporting services. These providers are contractually limited to using your information only to provide services to us.
 - **Apple.** Subscription payments are processed by Apple under its own privacy policy. We receive information about your subscription status but never your full payment details.
 - **Legal requirements.** We may disclose information if required by law, subpoena, or other legal process, or if we believe in good faith that disclosure is necessary to protect rights, prevent fraud, or address a safety issue.
 - **Business transfers.** If Daily Bread is acquired by or merged with another company, your information may be transferred as part of that transaction. We will notify you before your information becomes subject to a different privacy policy.
@@ -148,3 +153,4 @@ Mailing address: [Your business mailing address]
 ---
 
 © 2026 Daily Bread. All rights reserved.
+
